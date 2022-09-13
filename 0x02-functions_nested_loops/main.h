@@ -1,22 +1,25 @@
-#include <stdio>
-#include "main.h"
+int _putchar(char c);
 
-/**
- * main - Entry point 
- *
- * Return: Always 0 (Success)
- */
+void print_alphabet(void);
 
-int main(void)
-{
-	char name[10] = "_putchar";
+void print_alphabet_x10(void);
 
-	int i;
+int _islower(int c);
 
-	for (i = 0; i < 8; i++)
-	{
-		_putchar(name[i]);
-	}
-	_putchar(10);
-	return (0);
-}
+int _isalpha(int c);
+
+int print_sighn(int n);
+
+int _abs(int);
+
+int print_last_digit(int);
+
+void jack_bauer(void);
+
+void times_table(void);
+
+int add(int, int);
+
+void print_to_98(int n);
+
+void print_times_table(int n);
