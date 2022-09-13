@@ -2,21 +2,17 @@
 
 /**
  * main - Entry point 
- *
- * Return: Always 0 (Success)
+ * Return: 0
  */
 
-int main(void)
+void print_alphabet(void)
 {
-	print_alphabet();
+	char c = 'a';
 
-	char c;
-
-	for (c = 'a'; c = <= 'z'; c++)
+	while (<= 'z')
 	{
-		_putchar(c);
+		_putchar(c); c++;
+
 	}
 	_putchar('\n');
-
-	return (0);
 }
