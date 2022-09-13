@@ -8,11 +8,11 @@
  * Return: Last digit of n
  */
 
-int print_last_digit(int n)
+int print_last_digit(int) 
 {
 	int last_digit;
 
-	if (n > 0)
+	if (n < 0 )
 		last_digit = (n % 10) * -1;
 	else 
 		last_digit = n % 10;
