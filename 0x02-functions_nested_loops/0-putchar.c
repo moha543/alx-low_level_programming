@@ -1,10 +1,10 @@
-#include <stdio>
+#include <stdio.h>
 #include "main.h"
 
 /**
  * main - Entry point
- * 
- * Description: print _putchar
+ *
+ * Discrption: Print _putchar
  *
  * Return: Always 0
  */
@@ -17,8 +17,9 @@ int main(void)
 
 	for (i = 0; i < 8; i++)
 	{
-		_putchar(name[i]);
+	_putchar(name[i]);
 	}
 	_putchar(10);
 	return (0);
 }
+
