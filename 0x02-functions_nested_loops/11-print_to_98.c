@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * prnt_to_98 - Prints numbers from n to 98
+ * printt_to_98 - Prints numbers from n to 98
  *
  * @n: Theinput number.
  *
