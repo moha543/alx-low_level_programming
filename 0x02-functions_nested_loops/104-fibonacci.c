@@ -1,6 +1,6 @@
 /*
  * File: 104-fibonacci.c
- * Auth: Brennan D
+ * Auth: Brennan D Barban
  */
 
 #include <stdio.h>
