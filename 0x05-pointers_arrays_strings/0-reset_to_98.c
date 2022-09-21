@@ -5,7 +5,6 @@
  * and changes the value to 98
  *
  * @n:The variable pointing to the integer
- *
  * Return: Nothing 
  */
 void reset_to_98(int *n)
